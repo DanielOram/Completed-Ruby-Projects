@@ -22,6 +22,7 @@ class DynamicFibonacci
 end
 
 f = DynamicFibonacci.new
+puts "enter an integer number to calculate the nth term in the fibonacci series: "
 input = gets.to_i
 sequence = f.fib(input)
 puts "the #{input} number of the fibonacci series is #{sequence}"
