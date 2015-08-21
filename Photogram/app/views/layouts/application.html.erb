@@ -7,7 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<ul class="nav nav-tabs">
+  <li role="presentation" id="index" class="active"><a href="<%= root_path%>">Photogram</a></li>
+  <li role="presentation" id="new"><a href="<%= new_post_path%>">New Post</a></li>
+  <li role="presentation"><a href="#">Login</a></li>
+  <li role="presentation"><a href="#">Register</a></li>
+</ul>
 <%= yield %>
 
 </body>
