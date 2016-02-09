@@ -46,4 +46,3 @@ end
 
 gem 'haml', '4.0.7'
 gem 'paperclip', '4.3.5'
-gem 'simple_form', '3.2.1'
