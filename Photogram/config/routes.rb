@@ -57,4 +57,7 @@ Rails.application.routes.draw do
   #posts controller routes
   resources :posts
   
+  #set index view to root route
+  root 'posts#index'
+  
 end
