@@ -11,7 +11,7 @@ class PostsController < ApplicationController
   #create action for submitting a post
   def create
     @post = Post.create( post_params )
-    #redirect to posts_path
+    #redirect to
     redirect_to posts_path
   end
   
