@@ -1,1 +1,5 @@
 %h1 Photogram
+
+-@post.each do |post|
+	=image_tag post.image
+	=post.caption
